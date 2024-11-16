@@ -67,7 +67,7 @@ int main (void)
   
   printf("Enter Farenheit temperature: ");
   scanf("%f", &f);
-  c=(5.0f/9.0f)*(f-32);
+  c=(5*f-160)/9.0f;
   printf("%.2f F in farenheit is %.2f degree celsius\n", f, c); // works as well
 
   
