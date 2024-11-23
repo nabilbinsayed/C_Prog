@@ -12,7 +12,7 @@
     // (d) Fixed decimal notation; right-justified in a field of size 6; no digits after the decimal
     // point
 
-// Note/Highlight: 
+// Note/Highlight: The solutions were correct. 
 
 #include <stdio.h>
 int main (void)
@@ -20,21 +20,21 @@ int main (void)
 {
   float x = 3.1416;
 
-  printf("X%-8.1eX\n", x);
+  printf("|%-8.1eX\n", x);
   // output guess: "3.1e+00 "
   // real output : "3.1e+00 "
 
-  printf("X%10.6eX\n", x);
+  printf("|%10.6e|\n", x);
   // output guess: ""
   // real output : "3.141600e+00"
   
-  printf("X%-8.3fX\n", x);
-  // output guess: 
-  // real output: 
+  printf("|%-8.3f|\n", x);
+  // output guess: "3.142   "
+  // real output : "3.142   "
   
-  printf("X%6.0fX\n", x);
-  // output guess: 
-  // real output: 
+  printf("|%6.0f|\n", x);
+  // output guess: "     3"
+  // real output : "     3"
   
 
 
