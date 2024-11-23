@@ -18,6 +18,7 @@
 // Note/Highlight: 
 
 #include <stdio.h>
+#include <stddef.h>
 int main (void)
 
 {
@@ -32,8 +33,11 @@ int main (void)
   printf("Enter purchase date(mm/dd/yyyy): ");
   scanf("%d/%d/%d", &m, &d, &y);
 
-  printf("Item\t\tUnit\t\tPurchase\n\t\tPrice\t\tDate\n%d\t\t%-.2f\t\t%d/%d/%d", item, price, m, d, y);
+  printf("Item\t\tUnit\t\tPurchase\n\t\tPrice\t\tDate\n%d\t\t$%-.2f\t\t%d/%d/%d", item, price, m, d, y);
 
+  
+
+ 
 
 
   return 0; 
