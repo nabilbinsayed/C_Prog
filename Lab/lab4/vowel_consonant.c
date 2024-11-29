@@ -14,7 +14,7 @@ int main(void)
   else {
     ch2=tolower(ch);
 
-    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') {
+    if(ch2=='a' || ch2=='e' || ch2=='i' || ch2=='o' || ch2=='u') {
       printf("%c is a vowel\n", ch);
     }
     else {
