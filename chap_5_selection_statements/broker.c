@@ -26,11 +26,32 @@
 // Note/Highlight: 
 
 #include <stdio.h>
-int main (void)
 
-{
-  
+int main(void) {
+    float value, comm;
 
+    printf("Enter value of trade: ");
+    scanf("%f", &value);
 
-  return 0; 
+    if (value < 2500) {
+        comm = 30 + 0.017 * value;
+    } else if (value < 6250) {
+        comm = 56 + 0.0066 * value;
+    } else if (value < 20000) {
+        comm = 76 + 0.0034 * value;
+    } else if (value < 50000) {
+        comm = 100 + 0.0022 * value;
+    } else if (value < 500000) {
+        comm = 155 + 0.0011 * value;
+    } else {
+        comm = 255 + 0.0009 * value;
+    }
+
+    if (comm < 39) {
+        comm = 39;
+    }
+
+    printf("Commission: %.4f\n", comm);
+
+    return 0;
 }

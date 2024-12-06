@@ -1,15 +1,15 @@
-// Name: 
-// Date: 
-// Course/book: 
-// Section: 
-// Purpose: 
-// Note/Highlight: 
+// Name:
+// Date:
+// Course/book:
+// Section:
+// Purpose:
+// Note/Highlight:
 
 #include <stdio.h>
-int main (void)
+int main(void)
 
 {
-  int a, b, c; 
+  int a, b, c;
   int x, y, z;
 
   printf("input 3 integers: ");
@@ -20,6 +20,5 @@ int main (void)
   scanf("%d -%d -%d", &x, &y, &z);
   printf("%d, %d, %d\n", x, y, z);
 
-
-  return 0; 
+  return 0;
 }

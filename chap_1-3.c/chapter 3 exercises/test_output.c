@@ -1,9 +1,9 @@
-// Name: 
-// Date: 
-// Course/book: 
-// Section: 
-// Purpose: 
-// Note/Highlight: e+1 likha jabe na, e+01 hobe. 10e+02 likha jabe na, 1e+03 likhte hobe. 
+// Name:
+// Date:
+// Course/book:
+// Section:
+// Purpose:
+// Note/Highlight: e+1 likha jabe na, e+01 hobe. 10e+02 likha jabe na, 1e+03 likhte hobe.
 
 // ### **1. Why is there only one digit after the decimal in the first problem?**
 
@@ -55,10 +55,8 @@
 // 1. **For `%g`, precision specifies significant digits, not decimal places.** This is why only `1.0` (not `1.00`) appears in the first problem.
 // 2. **Field width is a minimum, not a maximum.** If the output requires more space, it will expand beyond the field width.
 
-
-
 #include <stdio.h>
-int main (void)
+int main(void)
 
 {
   // What output do the following calls of printf produce?
@@ -67,28 +65,25 @@ int main (void)
   //   (c) printf("%.4f", 83.162);
   //   (d) printf("%-6.2g", .0000009979);
 
-
-  printf("%6d,%4d\n", 86, 1040); 
+  printf("%6d,%4d\n", 86, 1040);
   // guess: "    86", "1040"
-  //answer: "    86", "1040" (CORRECT!) 
+  // answer: "    86", "1040" (CORRECT!)
 
-  printf("%12.5e\n", 30.253); 
+  printf("%12.5e\n", 30.253);
   // guess1: ".30253e02" (INCORRECT)
-  
-  //answer : " 3.02530e+01"
+
+  // answer : " 3.02530e+01"
 
   // explanation: https://chatgpt.com/share/673f46d0-4c24-800b-af9a-a99719dec841
 
-
   printf("%.4f\n", 83.162);
   // guess: "83.1620"
-  //answer: "83.1620" 
+  // answer: "83.1620"
 
   printf("X%-6.2gX\n", .0000009979);
-  //guess  : "99.79e-08" (probably incorrect so going to guess again)
-  //guess 2: close
-  //answer : "1e-06 " 
+  // guess  : "99.79e-08" (probably incorrect so going to guess again)
+  // guess 2: close
+  // answer : "1e-06 "
 
-
-  return 0; 
+  return 0;
 }

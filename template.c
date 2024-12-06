@@ -1,16 +1,14 @@
-// Name: 
-// Date: 
-// Course/book: 
-// Section: 
-// Purpose: 
-// Note/Highlight: 
+// Name:
+// Date:
+// Course/book:
+// Section:
+// Purpose:
+// Note/Highlight:
 
 #include <stdio.h>
-int main (void)
+int main(void)
 
 {
-  
 
-
-  return 0; 
+  return 0;
 }

@@ -1,9 +1,9 @@
-// Name: 
-// Date: 
-// Course/book: 
-// Section: 
-// Purpose: 
-// Note/Highlight: 
+// Name:
+// Date:
+// Course/book:
+// Section:
+// Purpose:
+// Note/Highlight:
 
 #include <stdio.h>
 int main(void)
@@ -17,4 +17,4 @@ int main(void)
   return 0;
 }
 
-//00000839.2 = 10 characters ALONG with "." point -_- 
+// 00000839.2 = 10 characters ALONG with "." point -_-
