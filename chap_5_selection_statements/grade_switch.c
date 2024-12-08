@@ -1,3 +1,18 @@
+// Name:
+// Date:
+// Course/book:
+// Section:
+// Purpose: Learning the Switch statement. 
+// Note/Highlight: 
+
+// No brace required around statements. 
+// Only constant expressions are allowed, or characters, but not floating points, strings or equations. 
+// Order doesn't matter. 
+// Cases can be packed together. 
+// Default case isn't compulsory. 
+
+
+
 #include <stdio.h>
 int main(void)
 {
