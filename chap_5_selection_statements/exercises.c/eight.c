@@ -41,7 +41,7 @@ int main(void)
   // }
   // else {
   //   printf("Not a teenager\n");
-  // }
+  // } 
 
   return 0;
 }
