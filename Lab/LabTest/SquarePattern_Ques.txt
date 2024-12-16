@@ -1,0 +1,25 @@
+1. write a program to calculate the sum of the series as follow
+b= base, n= power, sum=0
+sample input:
+b=1, n=5, sum=0
+[ the series will look like: 5+6+6+6+6
+sample output:
+sum= 29
+
+sample input:
+b=4, n=3, sum=0
+[ the series will look like: 3+7 +19
+sample output:
+sum= 29
+
+sample input:
+b=2, n=4, sum=0
+[ the series will look like: 4+6 +8+12
+sample output:
+sum=30
+
+sample input:
+b=5, n=3, sum=0
+[ the series will look like: 3+8 +28
+sample output:
+sum= 39
