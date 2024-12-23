@@ -15,11 +15,11 @@
 int main(void)
 
 {
-  unsigned long long int n;
+  unsigned long long int n; // important
   int digits = 0;
 
   printf("Enter a non-negative integer: ");
-  scanf("%llu", &n);
+  scanf("%llu", &n); // important
 
   do {
     n = n / 10;
