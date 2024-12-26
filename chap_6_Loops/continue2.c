@@ -10,7 +10,7 @@ int main()
 
   for (int i = 1; i <= n; i++) {
 
-    if (i % 2 == 0) // skips the even numbers
+    if (i % 2 != 0) // skips the odd numbers
       continue;
 
     printf("%d\n", i);
