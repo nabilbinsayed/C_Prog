@@ -10,7 +10,8 @@ int main(void)
 
 {
   int i, j, k, m, rows, mid;
-  rows = 10;
+  printf("Enter number of rows: "); 
+  scanf("%d", &rows); 
   mid = (rows + 1) / 2;
 
   for (i = 1; i <= rows; i++) {
