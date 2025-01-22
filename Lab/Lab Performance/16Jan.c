@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-  int M = 10, N = 3;
+  int M = 10, N = 2;
   int i, j, k;
   int count = 0;
   int index[M];

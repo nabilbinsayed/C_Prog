@@ -2,5 +2,5 @@
   "files.associations": {
     "stdio.h": "c"
   },
-  "cSpell.words": ["malloc", "Woverflow"]
+  "cSpell.words": ["getchar", "malloc", "putchar", "scanf", "Woverflow"]
 }
