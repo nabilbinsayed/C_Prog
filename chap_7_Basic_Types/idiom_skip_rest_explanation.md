@@ -1,7 +1,7 @@
 ### Question: 
  i'm using this portion: 
 
-idiom: " while (Gether() != '\n')   /* skips rest of line */ 
+idiom: " while (getchar() != '\n')   /* skips rest of line */ 
   ;"
 
 in the code: 

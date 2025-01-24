@@ -7,14 +7,22 @@ int main()
 
   while (ch != '\n') {
     ch = getchar();
-    if (ch == ' ') {
+    if (ch == ' ' || ch == '\n') {
       break;
     }
     putchar(ch);
   }
   while ((ch = getchar()) == ' ')
     ;
-  
+  while (ch != '\n') {
+    ch = getchar();
+    if (ch == ' ' || ch == '\n') {
+      break;
+    }
+    putchar(ch);
+  }
+
+
 
   return 0;
 }
