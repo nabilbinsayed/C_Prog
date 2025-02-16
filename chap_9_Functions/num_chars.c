@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int num_chars = printf("Nabil");
-  printf("\n%d\n", num_chars);
+  int n = printf("Nabila"); // very interesting
+  printf("\n%d\n", n); // returns 6
   return 0;
 }
