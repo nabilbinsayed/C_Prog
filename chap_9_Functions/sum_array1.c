@@ -11,7 +11,7 @@ int main(void)
     b[i] = i + 1;
     printf("%d ", b[i]);
   }
-  total = sum_array(b, LEN);
+  total = sum_array(b, LEN); // NOT sum_array(b[], LEN);
 
   printf("\nSum of the array is %d\n", total);
   printf("Sum of first 50 elements is %d\n", sum_array(b, 50));
